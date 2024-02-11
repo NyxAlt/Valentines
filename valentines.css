@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+#Question{
+    color: lightblue;
+}
+body{
+    background-image: url(imgjava/movinghearts2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.button{
+    font-size: 2em;
+    font-style: italic;
+    padding: 5px 10px;
+    border-radius: 25px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#yesBut{
+    background-color: rgb(53, 235, 53);
+}
+#NoBut{
+    background-color: rgb(236, 19, 19);
+}
+#yesBut:hover{
+    background-color: rgb(102, 250, 102); 
+}
+#NoBut:hover{
+    background-color: rgb(243, 78, 78);
+}
